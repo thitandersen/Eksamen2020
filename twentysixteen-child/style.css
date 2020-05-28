@@ -1,0 +1,139 @@
+/*
+ Theme Name: Twenty Sixteen Child
+ Description: Twenty sixteen Child Theme
+ Author: Thit Andersen
+ Author URI: http://thitandersen.dk/
+ Template: twentysixteen
+ Version: 1.0
+ */
+
+/*body*/
+.site {
+    background-color: transparent;
+} 
+body {
+  background: url(images/background.png);
+  background-repeat: no-repeat;
+    background-size: 100%;
+    font-family:'Actor', sans-serif;
+}
+
+ 
+.site-description {
+    color: #686868;
+    display: none;
+    font-size: 13px;
+    font-size: 0.8125rem;
+    font-weight: 400;
+    line-height: 1.0769230769;
+    margin: 0.538461538em 0 0}
+
+
+body, button, input, select, textarea {
+    color: #1a1a1a;
+    font-family: 'Actor', sans-serif;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1.75
+}
+a {
+    color:#789fbb;
+}
+a:hover{
+    color:#65859c;
+}
+
+.entry-title{
+    font-family:'Actor', sans-serif;;
+    font-weight:500;
+    margin-left:0.5em;
+}
+.elementor-column-wrap  .elementor-element-populated{
+    margin-left:-2em;
+}
+.menu-toggle:hover, .menu-toggle:focus {
+    border-color: white;
+    color: white;
+}
+
+.vp-filter__style-default .vp-filter__item.vp-filter__item-active a {
+    color: #fff;
+    cursor: default;
+    background-color: #97b791;
+    border: none;
+}
+
+@media screen and (min-width: 44.375em){
+body:not(.custom-background-image):before, body:not(.custom-background-image):after {
+    height: auto;
+}
+}
+/*header*/
+.custom-logo {
+    max-width:150px;
+}
+.main-navigation li:hover > a{
+    color:#fff;
+}
+
+
+/*sidebar*/
+.widget {
+    border-top: 2px solid #97b791;
+    margin-bottom: 3.5em;
+    padding-top: 1.75em;
+}
+.widget .search-submit:before{
+    color:black;
+    background-color:#97b791;
+}
+
+
+/*footer*/
+.footer-text{
+    text-align:center;
+    padding-top: 2em;
+    color:#b1b3b1;
+}
+.text-center{
+    font-weight:normal;
+}
+.required{
+    color:red;
+}
+    .nyhedsbrev-container{
+        clear:both;
+        border-top: 1px solid #b1b3b1;
+        padding-top:1em;
+        text-align:center;
+    }
+#id01{
+    display: none;
+    padding: 2em;
+    background: #d9e2d387;
+    margin-top: 2em;
+    text-align:left;
+}
+.button1{
+    background-color:#97b791;
+    font-weight:normal;
+}
+button:focus{
+        background-color:#97b791;
+}
+
+button:hover{
+background-color:#81a57b;
+}
+
+.signupbtn{
+    background-color:#97b791;
+    margin-top: 1em;
+    display: none;
+}
+.is-active .signupbtn{
+    display:block;
+}
+
+         
+
